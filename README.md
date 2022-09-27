@@ -10,6 +10,8 @@ Curso de Regex em Javascript.
    - Ex: [/Eleomar/gi] - Regex com flags
  - g - Global (Encontra todas as ocorencias)
  - i - Insensitive (Retira o case sensitive)
+ - () - Grupo
+ - | - Operador lógico OU
 
 
 ### Métodos dentro do Javascript
