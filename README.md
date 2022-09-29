@@ -21,9 +21,25 @@ Curso de Regex em Javascript.
 - \ - Caractere de escape (Antecede o caractere)
 - { n(Quantas), m(Máximo) } - Quantificados quando eu preciso de exatidão
 - . - Corresponde a qualquer caractere
-- \[] - Comjunto
-- \[^] - Qualquer coisa menos o que tiver no conjunto
+- \[] - Conjunto
 - \[-] - Definir um range, Ex: \[a-z]
+- \[^] - Negação dentro do conjunto
+- ^ - Começa com (Fora do conjunto)
+- $ - Termina com
+- m - Multiline vai linha por linha Ex: /[0-9]/gm
+
+Shortcuts:
+
+- \w - Conjunto que engloba todos = [a-zA-Z0-9]
+- \W - Conjunto que excliu tudo = [^a-za-z0-9]
+- \d - Conjunto que conta de 0 - 9 = [0-9]
+- \D - Conjunto que exclui de 0-9 = [^0-9]
+- \s - Conjunto que pega os espaços em branco da string
+- \S - Conjunto que pega tudo menos os espaços em branco
+
+Dicas:
+
+- Tabela Unicode para ranges de letras acentuádas.
 
 ### Métodos
 

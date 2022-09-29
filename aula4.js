@@ -21,3 +21,5 @@ console.log(conjunto.match(/[^abc123]/g)); //Procurando 1 ou +
 */
 
 console.log(conjunto.match(/[a-z]/g));
+console.log(conjunto.match(/[0-9]/g));
+console.log(conjunto.match(/[a-zA-Z0-9]/g));
