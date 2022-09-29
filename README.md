@@ -21,7 +21,7 @@ Curso de Regex em Javascript.
 - \ - Caractere de escape (Antecede o caractere)
 - { n(Quantas), m(Máximo) } - Quantificados quando eu preciso de exatidão
 - . - Corresponde a qualquer caractere
-- \[ ] - Comjunto
+- \[] - Comjunto
 - \[^] - Qualquer coisa menos o que tiver no conjunto
 - \[-] - Definir um range, Ex: \[a-z]
 
@@ -52,4 +52,4 @@ non-greedy - Seletor que pega apenas a primeira ocorrência.
 
 #### Conjuntos e Ranges
 
-- \[ ] - Define um conjunto de caracteres desejados
+- [] - Define um conjunto de caracteres desejados
