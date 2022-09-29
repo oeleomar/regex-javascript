@@ -3,8 +3,19 @@ Reunimos as melhores práticas para criar o seu conteúdo eleomar com qualidade 
 `;
 
 const conjunto = `ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 0123456789 !@#$%&*()_/*-+.,`;
+const lookahead = `
+  ONLINE 192.168.1.1 ABCDEF active
+  OFFLINE 192.168.1.2 ABCDEF inactive
+  OFFLINE 192.168.1.3 ABCDEF inactive
+  ONLINE 192.168.1.4 ABCDEF inactive
+  OFFLINE 192.168.1.5 ABCDEF active
+  OFFLINE 192.168.1.6 ABCDEF active
+  ONLINE 192.168.1.7 ABCDEF active
+  OFFLINE 192.168.1.8 ABCDEF inactive
+`;
 
 module.exports = {
   text,
   conjunto,
+  lookahead,
 };

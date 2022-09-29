@@ -27,6 +27,7 @@ Curso de Regex em Javascript.
 - ^ - Começa com (Fora do conjunto)
 - $ - Termina com
 - m - Multiline vai linha por linha Ex: /[0-9]/gm
+- .\* - Contém tudo, dot all
 
 Shortcuts:
 
@@ -40,6 +41,7 @@ Shortcuts:
 Dicas:
 
 - Tabela Unicode para ranges de letras acentuádas.
+- Arquivos que percorre linha por linha utiliza-se a flag multiline
 
 ### Métodos
 
@@ -69,3 +71,8 @@ non-greedy - Seletor que pega apenas a primeira ocorrência.
 #### Conjuntos e Ranges
 
 - [] - Define um conjunto de caracteres desejados
+
+#### Retrovisores em Match e Replace
+
+- /(1) \1/ - Grupo convencional, coloca-se \n pra acessar o grupo desejado no match
+- \$n - Acessando o grupo por um retorvisor
