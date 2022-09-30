@@ -3,7 +3,12 @@
 Curso de Regex em Javascript.
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Regular_Expressions">Documentação</a>
+<a href="https://regex101.com/">Site Util Regex 101</a>
 <br>
+
+## Receitas
+
+Encontra todas as palavras: /([\wÀ-ú]+)/gm
 
 ### Flags:
 
