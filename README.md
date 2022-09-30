@@ -9,6 +9,9 @@ Curso de Regex em Javascript.
 ## Receitas
 
 Encontra todas as palavras: /([\wÀ-ú]+)/gm
+Filtra tudo exceto numeros: /\D/g
+Valida IP: /((25[0-5]|2[0-4][0-9]|1\d{2}|[1-9]\d|\d)(\.)){3}(25[0-5]|2[0-4][0-9]|1\d{2}|[1-9]\d|\d)/g
+Valida CPF: /(?:\d{3}\.){2}\d{3}-\d{2}/g
 
 ### Flags:
 
